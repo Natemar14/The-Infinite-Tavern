@@ -1,0 +1,23 @@
+{
+  "name": "autonomous-franchise-brain",
+  "version": "1.0.0",
+  "description": "AI-driven franchise universe with viewer voting and avatar progression",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "pipeline": "node scripts/video-pipeline.js",
+    "orchestrate": "node scripts/orchestrator.js"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "three": "^0.160.0",
+    "socket.io": "^4.6.0",
+    "stripe": "^14.0.0",
+    "zustand": "^4.4.0",
+    "@tanstack/react-query": "^5.0.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
